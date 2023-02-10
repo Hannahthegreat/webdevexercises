@@ -27,10 +27,12 @@ Look through both files and fix all of the errors that you can find. Do the foll
 - Make sure the code is indented and spaced properly.
 - Add comments explaining what each line of the code does.
 
-#### index.html:
+#### index.html:›
 
 <!doctype html>
+
     <html lang="en">
+
 <head><metacharset="utf-8"><title>FIXME!</title>
     <link rel="stylesheet" href="fixme.css">
     <link .css>
@@ -50,34 +52,29 @@ There was nothing so <em>very</em remarkable in that; nor did Alice think it so 
     </body>
 </html>
 
-
 #### style.css:
 
 h1 { font-size: 3 rem;
-    text-align: center; h2 {font-size: 1. 25rem
-    text-align: center;
+text-align: center; h2 {font-size: 1. 25rem
+text-align: center;
 }
 
 p {
-    line-height: 1.3;
+line-height: 1.3;
 }
 
         #author {
+
 font-size: 1.1rem;
-        text-align: centre
-    style-font: italic; }
-
-
+text-align: centre
+style-font: italic; }
 
     body-background-color: aliceblue;
     fontfamily: Georgia, serif;
+
 }
 
-
-Your working code should produce the following result: https://drive.google.com/drive/folders/1L92YJHoU3AemYk7lvMsGFQR41AAeyFDM 
-
-
-
+Your working code should produce the following result: https://drive.google.com/drive/folders/1L92YJHoU3AemYk7lvMsGFQR41AAeyFDM
 
 ### Replace Me :ballot_box_with_check:
 
@@ -152,3 +149,4 @@ Create a HTML & CSS quick-reference guide that covers all of the tags we've cove
 - Include a minimum of 8 CSS properties.
 - Include a variety of different headers.
 - Make sure the code is indented and spaced properly.
+
