@@ -1,0 +1,398 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/atom-one-dark.min.css">
+    <title>HTML & CSS Resource</title>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+        <div class="container">
+            <a href="#" class="navbar-band text-light lead text-decoration-none">HTML & CSS Resource</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="coll apse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#learn" class="nav-link">What You'll learn</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#syntax" class="nav-link">Syntax</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#creator" class="nav-link">Creator</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Hero  -->
+    <section class="bg-dark text-light p-5 text-center text-sm-start">
+        <div class="container">
+            <div class="d-sm-flex align-items-center 
+            justify-content-between">
+                <div>
+                    <h1>Frontend <span class="text-warning">Bootcamp</span></h1>
+                    <p class="lead my-4">
+                        This is an overview of basic html and css code that serves as the building blocks of
+                        Web Development. This helps guide beginner Web Devs like me and you.
+                    </p>
+                    <button class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#enroll">Leave a
+                        Comment!</button>
+                </div>
+                <div class="px-4">
+                    <img class="img-fluid w-60 d-none d-sm-block" src="img/experience-design.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Introduction -->
+    <div class="bg-primary text-light p-5">
+        <div class="container text-center">
+            <h3 class="mb-4">Introduction</h3>
+            <p class="lead">HTML (Hypertext Markup Language) and CSS (Cascading Style Sheets)
+                are two of the core technologies for building websites.
+                Together, HTML and CSS form the backbone of almost every website on the internet.
+                HTML provides the structure and content of a web page, while CSS provides the visual styling.
+                By using HTML and CSS together, <span class="lead">you can create a rich and visually appealing website
+                    that is accessible and easy to maintain.</span></p>
+        </div>
+    </div>
+    <!-- HTML & CSS overview -->
+    <!-- <section class="p-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-laptop"></i>
+                            </div>
+                            <h3 class="card-title mb-3">HTML</h3>
+                            <p class="card-text">
+                                HTML (Hypertext Markup Language) is a standard markup language used to create and structure web content.
+                            </p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-secondary text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-person-square"></i>
+                            </div>
+                            <h3 class="card-title mb-3">CSS</h3>
+                            <p class="card-text">
+                                CSS is a stylesheet language used to describe the look and 
+                                formatting of a document written in HTML.
+                            </p>
+                            <a href="#" class="btn btn-dark">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- Learn Sections -->
+    <section id="learn" class="p-5">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md">
+                    <img src="img/fundamentals.svg" class="img-fluid" alt="">
+                </div>
+                <div class="col-md p-5">
+                    <h2>Learn the fundamentals</h2>
+                    <p class="lead">
+                        HTML (Hypertext Markup Language) and CSS (Cascading Style Sheets)
+                        are two of the core technologies for building websites.</p>
+                    <p>Together, HTML and CSS form the backbone of almost every website on the internet.
+                        HTML provides the structure and content of a web page, while CSS provides the visual styling.
+                        By using HTML and CSS together, you can create a rich and visually appealing website that is
+                        accessible and easy to maintain.</p>
+                    <a href="#read_more" class="btn btn-light mt-3"><i class="bi bi-chevron-right"></i> Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="learn" class="p-5 bg-dark text-light">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md p-5">
+                    <h2>Web Development</h2>
+                    <p class="lead">
+                        Web development is the process of creating and maintaining websites.</p>
+                    <p>It involves a variety of tasks and skills, including designing user interfaces, writing
+                        server-side code,
+                        creating and managing databases, and deploying and testing websites.
+                        Web development also involves using technologies such as HTML, CSS, JavaScript,
+                        and others to build and enhance the functionality and user experience of websites.</p>
+                    <a href="#overview" class="btn btn-light mt-3"><i class="bi bi-chevron-right"></i> Read More</a>
+                </div>
+                <div class="col-md">
+                    <img src="img/react.svg" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- HTML Definition -->
+    <section id="read_more" class="p-5">
+        <div class="container">
+            <h2 class="text-center mb-4">HTML (Hypertext Markup Language)</h2>
+            <p>HTML (Hypertext Markup Language) is a standard markup language used to create and structure web content.
+                It is the foundation upon which most websites are built, and it provides the structure and content ofweb
+                pages.
+                HTML consists of a series of elements, represented by tags, that describe the different parts of a
+                webpage,
+                such as headings, paragraphs, lists, images, links, and more.
+                Each element has a specific purpose and semantic meaning, and the tags tell web browsers how to display
+                the content.
+                For example, the <code>
+                    < p>
+                </code>tag is used to define a paragraph, and the <code>
+                    < h1>
+                </code>
+                tag is used to define a first-level heading. Here's an example of a simple HTML document:</p>
+            <!-- encoded text  -->
+            <pre>
+                <code>
+                    &lt;!DOCTYPE html&gt;
+                    &lt;html&gt;
+                    &lt;head&gt;
+                        &lt;title&gt;My First HTML Page&lt;/title&gt;
+                    &lt;/head&gt;
+                    &lt;body&gt;
+                        &lt;h1&gt;Hello, World!&lt;/h1&gt;
+                        &lt;p&gt;This is my first HTML page.&lt;/p&gt;
+                    &lt;/body&gt;
+                    &lt;/html&gt;
+                </code>
+            </pre>
+            <p>In this example, the <code>&lt;!DOCTYPE html&gt;</code> declaration specifies that this is an HTML5
+                document.
+                The <code> &lt;html&gt;</code> tag indicates the start of the HTML document,
+                and the <code>&lt;/html&gt;</code>tag indicates the end.
+                The <code>&lt;head&gt;</code> section contains information about the document, such as the title,
+                and the <code>&lt;body&gt; </code> section contains the main content of the page.
+                HTML provides a way to describe the structure and content of web pages, and it is a fundamental
+                building block of the web. By learning HTML, you can create your own web pages,
+                or understand how web pages are built and how they work.</p>
+        </div>
+    </section>
+    <!-- CSS Definition -->
+    <section id="read_more" class="p-5">
+        <div class="container">
+            <h2 class="text-center mb-4">CSS (Cascading Style Sheets)</h2>
+            <p>CSS (Cascading Style Sheets) is a stylesheet language used to describe the look and formatting
+                of a document written in HTML. CSS provides a way to separate the presentation of a document from its
+                structure,
+                making it easier to maintain and update the appearance of a website.</p>
+
+            <p>With CSS, you can define styles for HTML elements, such as headings, paragraphs, and links,
+                as well as styles for more complex layout and visual effects, such as backgrounds, borders, and
+                animations.
+                CSS styles are specified in separate files, which can be applied to multiple pages, making it easy to
+                maintain a consistent look and feel throughout a website.</p>
+
+            <p> CSS styles are defined using a set of rules, each consisting of a selector,
+                which specifies the HTML element(s) to be styled, and one or more declarations,
+                which specify the styles to be applied. For example, the following CSS rule sets the text color of
+                all <code>&lt;p&gt;</code> elements to blue:</p>
+            <!-- encoded text  -->
+            <pre>
+                <code>
+                    p {
+                        color: blue;
+                    }
+                </code>
+            </pre>
+            <p>CSS also provides a way to specify different styles for different devices and screen sizes,
+                making it easier to create responsive websites that look good on a variety of devices.
+                In addition to providing a way to style HTML documents, CSS can also be used to create dynamic user
+                interfaces,
+                such as drop-down menus, hover effects, and more, using JavaScript.</p>
+            <p>CSS is an essential part of web development, and a strong understanding of CSS is essential for building
+                rich,
+                interactive, and visually appealing websites.</p>
+        </div>
+    </section>
+    <!-- syntax -->
+    <section id="syntax" class="bg-dark text-light">
+        <div class="container">
+            <div class="row align-items-top">
+                <div class="col-md p-5">
+                    <h2>HTML Tags</h2>
+                    <p>These are the fundamental tags of HTML</p>
+                    <table class="table text-light">
+                        <thead>
+                            <tr>
+                                <th scope="col">Tag</th>
+                                <th scope="col">Definition</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">&lt;!DOCTYPE&gt;</th>
+                                <td>Defines the document type</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">&lt;html&gt;</th>
+                                <td>Defines an HTML document</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">&lt;head&gt;</th>
+                                <td colspan="2">Contains metadata/information for the document</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">&lt;title&gt;</th>
+                                <td>Defines a title for the document</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">&lt;body&gt;</th>
+                                <td>Defines the document's body</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">&lt;h1&gt; to &lt;h6&gt;</th>
+                                <td colspan="2">Defines HTML headings</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">&lt;p&gt;</th>
+                                <td>Defines a paragraph</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">&lt;br&gt;</th>
+                                <td>Inserts a single line break</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">&lt;!--...--&gt;</th>
+                                <td colspan="2">Defines a comment</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">&lt;code&gt;</th>
+                                <td>Defines a piece of computer code</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">&lt;img&gt;</th>
+                                <td>Defines an image</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">&lt;a&gt;</th>
+                                <td colspan="2">Defines a hyperlink</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-md p-5">
+                    <h2>CSS Syntax</h2>
+                    <p>A CSS rule consists of a selector and a declaration block.</p>
+                    <img src="img/css-syntax.png" class="img-fluid mb-3" alt="">
+                    <p>The selector points to the HTML element you want to style.
+                        The declaration block contains one or more declarations separated by semicolons.
+                        Each declaration includes a CSS property name and a value, separated by a colon.
+                        Multiple CSS declarations are separated with semicolons, and declaration blocks are
+                        surrounded by curly braces.</p>
+                    <p class="lead mb-0">CSS Basic Properties</p>
+                    <li>Font Properties</li>
+                    <li>Border Properties</li>
+                    <li>List Properties</li>
+                    <li>Text Properties</li>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Instructors  -->
+    <section id="creator" class="p-5 bg-primary">
+        <div class="container">
+            <h2 class="text-center text-white">Creator</h2>
+            <p class="lead text-center text-light mb5">BSc Creative Computing Year 1
+            </p>
+            <div class="card mb-3">
+                <div class="row p-5 align-items-center">
+                    <div class="col-md-4">
+                        <img src="img/Hannah.png" class="img-thumbnail rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8 ">
+                        <div class="card-body">
+                            <h2 class="card-title">Hannah Soliao</h2>
+                            <p class="card-text">This Web Page was created with basic HTML Structure, and Stylized with minimal css and
+                                a lot of inline Bootsrap styling elements. I've created an overall guide to the fundamentals of HTML & CSS
+                                for the reference of Young Beginner Web Developers like me
+                            </p>
+                            <p class="card-text"><small class="text-muted">HTML & CSS Resource Bonus Assessment Exercise</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer  -->
+    <footer class="p-5 bg-dark text-white text-center position-relative">
+        <div class="container">
+            <p class="lead">HTML & CSS Resource &copy; 2023 Hannah Soliao</p>
+            <a href="" class="position-absolute bottom-0 end-0 p-5">
+                <i class="bi bi-arrow-up-circle h1"></i>
+            </a>
+        </div>
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal fade" id="enroll" tabindex="-1" aria-labelledby="enrollLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="enrollLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p class="lead">Fill out this form and we will get back to you</p>
+                    <form>
+                        <div class="mb-3">
+                            <label for="full-name" class="col-form-label">
+                                Full name:
+                            </label>
+                            <input type="text" class="form-control" id="full-name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="col-form-label">
+                                Email:
+                            </label>
+                            <input type="text" class="form-control" id="email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="phone-number" class="col-form-label">
+                                Phone Number:
+                            </label>
+                            <input type="text" class="form-control" id="phone-number">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>
+        hljs.highlightAll();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
