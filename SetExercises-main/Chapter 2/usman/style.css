@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    box-sizing: border-box;
+    color: aliceblue;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.body {
+    padding-left: 5em;
+    padding-right: 5em;
+    justify-content: center;
+}
+
+section{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h1{
+    font-size: 2em;
+    letter-spacing: 10px;
+}
+
+span{
+    color: green;
+    border-bottom: 20px solid;
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+}
